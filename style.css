@@ -18,7 +18,7 @@ padding:0.4rem;
 h3{
 margin:0 0 1rem 0;
 }
-h3,button{
+h3,.cta-btn{
 color:hsl(0, 0%, 95%);
 }
 img{
@@ -26,7 +26,7 @@ width:100%;
 }
 p{
 color:hsla(0, 0%, 100%, 0.75);
-height:100px;
+padding:1rem;
 }
 .card-container{
 display:flex;
@@ -40,7 +40,7 @@ margin:2rem 0 0 0;
 flex-basis:20%; 
 padding:0.5rem 1.2rem;
 }
-button{
+.cta-btn{
 display:inline-block;
 background:#fff;
 border-radius:24px;
@@ -53,7 +53,7 @@ border:none;
 cursor:pointer;
 vertical-align:bottom;
 }
-button:hover{
+.cta-btn:hover{
 background:transparent;
 border:1px solid #ddd;
 }
